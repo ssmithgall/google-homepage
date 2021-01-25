@@ -53,6 +53,7 @@ ul{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    border: 2px solid transparent;
 }
 
 .button{
@@ -64,6 +65,41 @@ ul{
     background: #eee
 }
 
+.button:hover {
+    box-shadow: 0 0 2px 1px #000000;
+    border: 2px solid #eeeeee;
+}
+
 /* Footer */
 
+.footer-content {
+    display: block;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    align-content: center;
+    margin-top: 850px;
+    padding: 3px 10px;
+    border: 1px solid #dadce0;
+    text-align: center;
+}
 
+.footer li {
+    display: inline;
+}
+
+.footer a{ 
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #70757a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
